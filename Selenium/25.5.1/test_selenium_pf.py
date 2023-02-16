@@ -85,7 +85,7 @@ def test_4_pets_have_different_names(my_pets):
    print(pets_name)
 
 
-def test_no_repeating_pets(my_pets):
+def test_5_no_repeating_pets(my_pets):
    """Поверка что на странице со списком моих питомцев нет повторяющихся питомцев"""
 
    element = WebDriverWait(pytest.driver, 10).until(
